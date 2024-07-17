@@ -1,0 +1,19 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": ".NET Core Launch (console)",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${workspaceFolder}/Karu/bin/Debug/net8.0/Karu.dll",
+			"args": [
+				"/Users/gerson/Documents/Biblioteca.xml",
+				"/Users/gerson/Documents/pizza"
+			],
+			"cwd": "${workspaceFolder}",
+			"stopAtEntry": false,
+			"console": "internalConsole"
+		},
+	],
+}
